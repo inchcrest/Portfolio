@@ -1,0 +1,39 @@
+.masthead_logo{
+	position:relative;
+	height: 170px;
+	padding-left: 16px;
+	padding-right: 16px
+	/*background-image: url('../img/grass.png');
+	background-repeat: repeat-x;*/
+}
+#logo
+{
+	position: absolute;
+	z-index:1;
+	height:250px;
+	top: 15px
+}
+#grass
+{
+	position:absolute;
+	z-index:-1;
+	top:48px;
+	float:right;
+	padding-right:20px;
+}
+
+
+.swamp_nav{
+	position:relative;
+	top:25px;
+	z-index:2;
+}
+
+.grass{
+	background-image: url('../img/grass.png');
+	background-repeat: repeat-x;
+	position: relative;
+	height:250px;
+	top:49px;
+}
+

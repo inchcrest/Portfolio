@@ -1,0 +1,125 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <title>mikyle baksh</title>
+	<meta charset="utf-8" />
+    <script src="\scripts\bower_components\angular\angular.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <link href="\scripts\bower_components\bootstrap\dist\css\bootstrap.min.css" rel="stylesheet" />
+    <link href="\css\site.css" rel="stylesheet" />
+    <link href='https://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="20">
+    <nav class="navbar navbar-affix" data-spy="affix">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header" id="collapse-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="navbar-collapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="#splash"><span class="glyphicon glyphicon-chevron-up"></span></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#about-me"><span class="text-underline">a</span>bout me &gt;</a></li>
+                    <li><a href="#projects"><span class="text-underline">p</span>rojects &gt;</a></li>
+                </ul>
+            </div><!-- /.navbar-collapse -->
+        </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid splash-container">
+        <div class="splash" id="splash">
+            <h1>hi, friend!</h1>
+            <h3><span class="text-underline">w</span>elcome to my portfolio</h3>
+            <div class="row splash-links">
+                <!--<div class="col-sm-6" id="splashlinks">
+                    <a href="#about-me"><h4><span class="text-underline">a</span>bout me &gt;</h4></a>
+                </div>
+                <div class="col-sm-6" id="splashlinks">
+                    <a href="#projects"><h4><span class="text-underline">p</span>rojects &gt;</h4></a>
+                </div>-->
+                <div class="col-sm-12 splash-icon" id="splashicon">
+                    <a href="#about-me"><h4><span class="glyphicon glyphicon-chevron-down"></span></h4></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <div class="about-me" id="about-me">
+            <div class="section-header"><span class="text-underline">a</span>bout me &gt;</div>
+            <div class="row">
+                <div class="col-sm-3 col-sm-offset-3">
+                    <img class="selfie" src="images/von_fugel.jpg" />
+                </div>
+                <div class="col-sm-3">
+                    <div class="about-text">
+                        <p>
+                            My name is Mikyle Baksh. I am an ambitious full stack programmer based out of Palm Beach County, FL.
+                        </p>
+                        <p>
+                            Generally I work with .NET and SQLServer. However, I also have professional experience with VBA (Access), Javascript, AngularJS, and MongoDB. On the side I have tinkered with C++, Java, and SQLLite. I enjoy learning new technologies and I am currenly learning the Ionic Framework.
+                        </p>
+                        <p>
+                            The best way to get in contact with me is through email: <br />
+                            <span class="reverse">moc.liamg@hskab.elykim</span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="projects" id="projects">
+            <div class="section-header"><span class="text-underline">p</span>rojects &gt;</div>
+            <div class="row">
+                <div class="col-sm-4 col-project">
+                    <p class="section-header project-header">
+                        <span class="text-underline">w</span>eb scraper
+                    </p>
+                    <img src="images/placeholder.png" />
+                    <p class="section-header language-header">&lt; .NET &gt;</p>
+                    <p class="project-text">
+                        This is a simple app to get data from a website to a SQLite database <br />
+                        This scraper is part of a larger project which is in progress
+                    </p>
+                    <a class="btn btn-success" href="" target="_blank">GitHub</a>
+                </div>
+                <div class="col-sm-4 col-project col-center-project">
+                    <p class="section-header project-header">
+                        <span class="text-underline">p</span>ill reminder
+                    </p>
+                    <img class="project-thumb" src="images/placeholder.png" />
+                    <p class="section-header language-header">&lt; Android &gt;</p>
+                    <p class="project-text">
+                        This is a pill reminder app built for a school project <br />
+                        The app was incorporated into a home screen replacement built for the elderly. The pill reminder acted as a 'module' that could be added to the home screen replacement
+                    </p>
+                    <a class="btn btn-success" href="https://github.com/inchcrest/PillReminder2-Anndroid" target="_blank">GitHub</a>
+                </div>
+                <div class="col-sm-4 col-project">
+                    <p class="section-header project-header">
+                        <span class="text-underline">r</span>estaurant site
+                    </p>
+                    <img class="project-thumb"src="images/restaurant_thumb_200.png" />
+                    <p class="section-header language-header">&lt; LAMP Stack &gt;</p>
+                    <p class="project-text">
+                        This site was a side project that was supposed to act as a template for other business websites. <br />
+                        I planned on using this as a portfolio to get local businesses as clients. This idea was scrapped because I got an internship.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+    <script src="\scripts\bower_components\jquery\dist\jquery.min.js"></script>
+    <script src="\scripts\bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
+    <script src="scripts/lib/smoothscroll.js"></script>
+
+
+</body>
+</html>
