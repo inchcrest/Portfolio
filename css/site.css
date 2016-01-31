@@ -191,6 +191,23 @@ direction: rtl;
     width: 200px;
 }
 
+.btn-project {
+  color: #fff;
+  background-color: #222;
+  border-color: #222;
+}
+.btn-project:focus,
+.btn-project.focus {
+  color: #fff;
+  background-color: #449d44;
+  border-color: #255625;
+}
+.btn-project:hover {
+  color: #EDBD3E;
+  background-color: #222;
+  border-color: #222;
+}
+
 /*CONSTRUCTION*/
 .construction-element {
     padding-top: 275px;
