@@ -11,6 +11,19 @@
     <link href='https://fonts.googleapis.com/css?family=Rokkitt:400,700' rel='stylesheet' type='text/css'>
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="20">
+<!--
+   ________________________
+  /                        \
+  | i'm gizmo, mikyle's dog |
+  |       *woof**grr*       |
+  \________________________/
+      \              
+        ^..^     _ 
+        /_/\_____/
+           /\   /\
+          /  \ /  \
+    
+    -->
     <nav class="navbar navbar-affix" data-spy="affix">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,12 +51,6 @@
             <h1>hi, friend!</h1>
             <h3><span class="text-underline">w</span>elcome to my portfolio</h3>
             <div class="row splash-links">
-                <!--<div class="col-sm-6" id="splashlinks">
-                    <a href="#about-me"><h4><span class="text-underline">a</span>bout me &gt;</h4></a>
-                </div>
-                <div class="col-sm-6" id="splashlinks">
-                    <a href="#projects"><h4><span class="text-underline">p</span>rojects &gt;</h4></a>
-                </div>-->
                 <div class="col-sm-12 splash-icon" id="splashicon">
                     <a href="#about-me"><h4><span class="glyphicon glyphicon-chevron-down"></span></h4></a>
                 </div>
@@ -55,15 +62,18 @@
             <div class="section-header"><span class="text-underline">a</span>bout me &gt;</div>
             <div class="row">
                 <div class="col-sm-3 col-sm-offset-3">
-                    <img class="selfie" src="images/von_fugel.jpg" />
+                    <img class="selfie" src="images/13138848_2774926219397_4813026460876582463_n.jpg" />
                 </div>
                 <div class="col-sm-3">
                     <div class="about-text">
                         <p>
-                            My name is Mikyle Baksh. I am an ambitious full stack programmer based out of Palm Beach County, FL.
+                            My name is Mikyle Baksh. I am an ambitious software engineer based out of Palm Beach County, FL.
                         </p>
                         <p>
-                            Generally I work with .NET and SQLServer. However, I also have professional experience with VBA (Access), Javascript, AngularJS, and MongoDB. On the side I have tinkered with C++, Java, and SQLLite. I enjoy learning new technologies and I am currenly learning the Ionic Framework.
+                            Generally I work with .js, .NET and MySQL/SQLServer. However, I also have professional experience with VBA (Access), MongoDB. On the side I have tinkered with C++, Java, and SQLLite. I enjoy learning new technologies and I am currenly learning React/Redux, and working with AWS.
+                        </p>
+                        <p>
+                            I love music and animals. I hope one day to be able to play the drums again (No space/Too close to neighbors). If I won the lottery, I'd spend my fortune rescuing dogs. One of the greatest joys in life is programming and my hands rarely leaving the keyboard.
                         </p>
                         <p>
                             The best way to get in contact with me is through email: <br />
@@ -75,24 +85,22 @@
         </div>
         <div class="projects" id="projects">
             <div class="section-header"><span class="text-underline">p</span>rojects &gt;</div>
-            <div class="row">
+            <div class="row">                
                 <div class="col-sm-4 col-project">
                     <p class="section-header project-header">
-                        <span class="text-underline">w</span>eb scraper
+                        <span class="text-underline">s</span>chedules direct icon downloader
                     </p>
-                    <!--<img src="images/placeholder.png" />-->
                     <p class="section-header language-header">&lt; .NET &gt;</p>
                     <p class="project-text">
-                        This is a simple app to get data from a website to a SQLite database <br />
-                        This scraper is part of a larger project which is in progress
+                        This is a console app that consumes the SchedulesDirect API. <br />
+                        The app downloads all channel icons in my lineup and renames the icons to fit a schema defined by Kodi
                     </p>
-                    <a class="btn btn-project" href="" target="_blank">GitHub</a>
-                </div>
+                    <a class="btn btn-project" href="https://github.com/inchcrest/schedules-direct-icon-downloder" target="_blank">GitHub</a>
+                </div>                
                 <div class="col-sm-4 col-project col-center-project">
                     <p class="section-header project-header">
                         <span class="text-underline">p</span>ill reminder
                     </p>
-                    <!--<img class="project-thumb" src="images/placeholder.png" />-->
                     <p class="section-header language-header">&lt; Android &gt;</p>
                     <p class="project-text">
                         This is a pill reminder app built for a school project <br />
@@ -104,7 +112,6 @@
                     <p class="section-header project-header">
                         <span class="text-underline">r</span>estaurant site
                     </p>
-                    <!--<img class="project-thumb"src="images/restaurant_thumb_200.png" />-->
                     <p class="section-header language-header">&lt; LAMP Stack &gt;</p>
                     <p class="project-text">
                         This site was a side project that was supposed to act as a template for other business websites. <br />
@@ -112,15 +119,12 @@
                     </p>
                     <a class="btn btn-project" href="https://github.com/inchcrest/Portfolio/tree/master/projects/restauranttemplate" target="_blank">GitHub</a>
                 </div>
-            </div>
-            
+            </div>            
         </div>
     </div>
     
     <script src="\scripts\bower_components\jquery\dist\jquery.min.js"></script>
     <script src="\scripts\bower_components\bootstrap\dist\js\bootstrap.min.js"></script>
     <script src="scripts/lib/smoothscroll.js"></script>
-
-
 </body>
 </html>

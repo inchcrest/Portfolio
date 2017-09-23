@@ -95,10 +95,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="construction.html" />
-    <Content Include="images\placeholder.png" />
+    <Content Include="images\13138848_2774926219397_4813026460876582463_n.jpg" />
     <Content Include="images\restaurant_thumb.png" />
     <Content Include="images\restaurant_thumb_200.png" />
-    <Content Include="images\von_fugel.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>

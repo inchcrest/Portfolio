@@ -108,6 +108,11 @@
     margin-top: -15px;
 }
 
+.splash h6 {
+    font-family: 'Rokkitt', serif;
+    color: #fff;
+}
+
 .splash a {
     font-family: 'Rokkitt', serif;
     color: #EDBD3E;
